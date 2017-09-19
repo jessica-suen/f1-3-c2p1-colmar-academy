@@ -1,0 +1,275 @@
+/* Reusable styles */
+
+html {
+  font-family: 'Open Sans', sans-serif;
+  color: #4f4f4f;
+}
+
+.container {
+  padding: 0 24px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: normal;
+
+}
+
+
+/* Header */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 64px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+header img /*Logo */{
+  height: 32px;
+  margin-right: 5px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  margin-left: 20px;
+  display: inline;
+}
+
+
+
+
+/* Hero banner */
+
+.hero {
+  background-color: lightgray;
+  display: flex;
+  height: 600px;
+}
+
+.image-container {
+  overflow: hidden;
+  width: 60%;
+  padding: 32px 24px;
+  margin-bottom: 32px;
+}
+
+.image-container img {
+  height: auto;
+  display: block;
+  min-width: 100%;
+}
+
+.learn-new {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 30%;
+  margin-left: 24px;
+}
+
+.button {
+  background-color: dimgray;
+  padding: 11px 0 5px 0;
+  color: white;
+  height: 2rem;
+  text-align: center;
+}
+
+.learn-new h2 {
+  position: relative;
+  bottom: 25px;
+}
+
+#man-book {
+  width: 92%;
+}
+
+/* Keep practicing */
+
+.keep-practicing {
+  padding-bottom: 32px;
+  display: flex;
+  justify-content: space-between;
+}
+
+  .leftcolumn {
+    width: 65%;
+  }
+
+        .keeppracticing-text {
+          padding: 0 24px;
+          position: relative;
+          bottom: 30px;
+        }
+
+        .name {
+          font-size: 0.8em;
+        }
+
+/* CTA right column */
+
+.student-links {
+  width: 35%;
+  border-left: 1px solid lightgray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+      .CTA-container {
+        border-bottom: 1px solid lightgray;
+
+      }
+
+            .CTA-content {
+              display: flex;
+            }
+
+                    .square-container {
+                      width: 35%;
+                      margin: 16px;
+                    }
+
+                        .CTA-square {
+                          max-width: 100%;
+                          height: auto;
+                        }
+
+                    .CTA-text {
+                      width: 65%;
+                      display: flex;
+                      flex-direction: column;
+                      justify-content: center;
+                    }
+
+                    .CTA-text span a{
+                      color: #4286f4;
+                    }
+
+
+
+
+/* Start Learning */
+
+.start-learning {
+  background-color: #e8e8e8;
+  height: auto;
+  padding-bottom: 32px;
+}
+
+.start-learning h1 {
+  text-align: center;
+  padding-top: 32px;
+}
+
+
+    .classes-container {
+      margin: 0 auto;
+      padding: 0 72px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+
+          .class {
+            background-color: white;
+            margin: 16px;
+            display: flex;
+            flex-direction: column;
+            width: 28rem;
+
+          }
+
+          .class img {
+            height: auto;
+          }
+
+          .class-text-container {
+            padding: 16px;
+          }
+
+
+
+.video-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+      .thesis-exhibit h1 {
+        text-align: center;
+        padding: 32px 0;
+      }
+
+      .thesis-exhibit video {
+        background-color: gray;
+        height: 40rem;
+      }
+
+      .mainvideo {
+        padding: 32px 24px;
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        padding-top: 16px;
+      }
+
+      .thesis-exhibit h3 {
+        padding-top: 24px;
+      }
+
+      .thesis-exhibit p {
+        padding: 0;
+        margin: 0;
+      }
+
+
+.more-videos {
+  width: 35%;
+}
+
+    .secondary-video {
+      display: flex;
+    }
+
+    .secondary-video img {
+      width: 35%;
+      margin: 16px;
+      height: auto;
+    }
+
+    .secondary-video-text {
+      width: 65%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      position: relative;
+      top: -2rem;
+    }
+
+
+footer {
+  width: 100%;
+  border-top: 1px solid lightgray;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 16px;
+  padding-left: 24px;
+  height: 6rem;
+}
+
+footer span {
+  padding-right: 2rem;
+}
